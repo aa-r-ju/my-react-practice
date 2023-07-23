@@ -1,5 +1,5 @@
-function Total ({exercises1,exercises2,exercises3}) {
-  let sum = exercises1 + exercises2 + exercises3
+function Total ({parts}) {
+  let sum = parts[0].exercises  + parts[1].exercises  + parts[2].exercises  
     return(
         <>
 <p> Number of exercises {sum}</p>
